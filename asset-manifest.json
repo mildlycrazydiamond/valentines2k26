@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/valentines2k26/static/css/main.f855e6bc.css",
-    "main.js": "/valentines2k26/static/js/main.16722a83.js",
+    "main.css": "/valentines2k26/static/css/main.e6c13ad2.css",
+    "main.js": "/valentines2k26/static/js/main.1803d63e.js",
     "static/js/453.629e4e8f.chunk.js": "/valentines2k26/static/js/453.629e4e8f.chunk.js",
-    "static/media/logo.svg": "/valentines2k26/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/valentines2k26/index.html",
-    "main.f855e6bc.css.map": "/valentines2k26/static/css/main.f855e6bc.css.map",
-    "main.16722a83.js.map": "/valentines2k26/static/js/main.16722a83.js.map",
+    "main.e6c13ad2.css.map": "/valentines2k26/static/css/main.e6c13ad2.css.map",
+    "main.1803d63e.js.map": "/valentines2k26/static/js/main.1803d63e.js.map",
     "453.629e4e8f.chunk.js.map": "/valentines2k26/static/js/453.629e4e8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.16722a83.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1803d63e.js"
   ]
 }
