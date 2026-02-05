@@ -1,65 +1,66 @@
 // src/App.jsx
-import React from "react";
-import { getValentinePhase } from "./utils/dateUtils";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import DayWrapper from "./components/DayWrapper";
+import ProtectedDay from "./components/ProtectedDay";
 
-const styles = {
-  container: {
-    minHeight: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    background: "linear-gradient(135deg, #ff9a9e, #fad0c4)",
-    fontFamily: "'Segoe UI', sans-serif",
-  },
-  card: {
-    background: "white",
-    padding: "2.5rem",
-    borderRadius: "20px",
-    textAlign: "center",
-    boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
-    maxWidth: "400px",
-  },
-};
+import Day7 from "./days/Day7";
+import Day8 from "./days/Day8";
+import Day9 from "./days/Day9";
+import Day10 from "./days/Day10";
+import Day11 from "./days/Day11";
+import Day12 from "./days/Day12";
+import Day13 from "./days/Day13";
+import Day14 from "./days/Day14";
 
-const Before = () => (
-  <Message
-    title="💌 Almost there…"
-    text="Stay tuned for love and kisses on the 7th 💋"
-  />
-);
-
-const During = () => (
-  <Message
-    title="❤️ Valentine’s Week ❤️"
-    text="Your love story begins here…"
-  />
-);
-
-const After = () => (
-  <Message
-    title="💖 Until next time…"
-    text="Return for more love and kisses next year 💕"
-  />
-);
-
-const Message = ({ title, text }) => (
-  <div style={styles.card}>
-    <h1>{title}</h1>
-    <p>{text}</p>
-  </div>
-);
-
-
-function App() {
-  const phase = getValentinePhase();
-
+export default function App() {
   return (
-    <div style={styles.container}>
-      {phase === "before" && <Before />}
-      {phase === "during" && <During />}
-      {phase === "after" && <After />}
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<DayWrapper />} />
+          <Route path="/day/7" element={
+            <ProtectedDay>
+      <Day7 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/8" element={
+            <ProtectedDay>
+      <Day8 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/9" element={
+            <ProtectedDay>
+      <Day9 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/10" element={
+            <ProtectedDay>
+      <Day10 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/11" element={
+            <ProtectedDay>
+      <Day11 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/12" element={
+            <ProtectedDay>
+      <Day12 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/13" element={
+            <ProtectedDay>
+      <Day13 />
+    </ProtectedDay>
+          } />
+          <Route path="/day/14" element={
+            <ProtectedDay>
+      <Day14 />
+    </ProtectedDay>
+          } />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
-
-export default App;

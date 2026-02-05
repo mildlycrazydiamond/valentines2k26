@@ -8,3 +8,26 @@ export const getValentinePhase = () => {
   if (today > end) return "after";
   return "during";
 };
+
+// src/utils/dateUtils.js
+export const VALENTINE_DAYS = {
+  7: "Rose Day 🌹",
+  8: "Propose Day 💍",
+  9: "Chocolate Day 🍫",
+  10: "Teddy Day 🧸",
+  11: "Promise Day 🤞",
+  12: "Hug Day 🤗",
+  13: "Kiss Day 💋",
+  14: "Valentine’s Day ❤️",
+};
+
+export const getTodayInfo = () => {
+  const phase = getValentinePhase();
+  if (phase === "before") return { phase: "before" };
+  if (phase === "after") return { phase: "after" };
+
+  const today = new Date();
+  const day = today.getDate();
+
+  return { phase: "during", unlockedDay: day };
+};
