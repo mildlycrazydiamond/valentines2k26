@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/valentines2k26/static/css/main.e6c13ad2.css",
-    "main.js": "/valentines2k26/static/js/main.d1db6a38.js",
+    "main.js": "/valentines2k26/static/js/main.9a20356c.js",
     "static/js/453.629e4e8f.chunk.js": "/valentines2k26/static/js/453.629e4e8f.chunk.js",
+    "static/media/kiss.jpg": "/valentines2k26/static/media/kiss.4b349c68a0f5e5572ee1.jpg",
+    "static/media/valentines.jpg": "/valentines2k26/static/media/valentines.4efb99e7038109a9fa82.jpg",
+    "static/media/hug.jpg": "/valentines2k26/static/media/hug.3166cfa85cc46c259170.jpg",
+    "static/media/rose.jpg": "/valentines2k26/static/media/rose.6819910a608cc83dd542.jpg",
+    "static/media/proposal.jpg": "/valentines2k26/static/media/proposal.cb64468eb1304b3e67cc.jpg",
+    "static/media/chocolate.jpg": "/valentines2k26/static/media/chocolate.639a031688e30355e577.jpg",
+    "static/media/promise.png": "/valentines2k26/static/media/promise.d3f2c28fd5ade4df7b25.png",
+    "static/media/teddy.jpg": "/valentines2k26/static/media/teddy.2b4d8d355cfd9e7c5b85.jpg",
     "index.html": "/valentines2k26/index.html",
     "main.e6c13ad2.css.map": "/valentines2k26/static/css/main.e6c13ad2.css.map",
-    "main.d1db6a38.js.map": "/valentines2k26/static/js/main.d1db6a38.js.map",
+    "main.9a20356c.js.map": "/valentines2k26/static/js/main.9a20356c.js.map",
     "453.629e4e8f.chunk.js.map": "/valentines2k26/static/js/453.629e4e8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d1db6a38.js"
+    "static/js/main.9a20356c.js"
   ]
 }
