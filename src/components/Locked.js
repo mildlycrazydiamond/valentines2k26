@@ -10,15 +10,23 @@ export default function Locked({ message }) {
 const styles = {
   container: {
     minHeight: "100vh",
+    width: "100vw",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding: "1.5rem",
-    background: "linear-gradient(135deg, #ff9a9e, #fad0c4)",
+    background: "linear-gradient(135deg, #fff5f7, #ffe0e6)",
+    marginLeft: "calc(-50vw + 50%)",
+    boxSizing: "border-box",
   },
   text: {
     fontSize: "1.3rem",
     textAlign: "center",
-    color: "#fff",
+    color: "#8B0000",
+    wordWrap: "break-word",
+    overflowWrap: "break-word",
+    whiteSpace: "normal",
+    maxWidth: "85%",
+    lineHeight: "1.6",
+    padding: "1.5rem",
   },
 };

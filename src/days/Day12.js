@@ -1,19 +1,12 @@
-// src/days/Day7.jsx
-export default function Day7() {
+import { VALENTINE_DAYS } from "../utils/dateUtils";
+import DayCard from "../components/DayCard";
+
+export default function Day12() {
   return (
-    <div style={styles.page}>
-      <h1>🌹 Rose Day 12</h1>
-      <p>
-        If I could give you one rose for every time you made me smile,
-        I’d have a garden that never ends.
-      </p>
-    </div>
+    <DayCard
+      title={VALENTINE_DAYS[12]}
+      imageUrl="/images/hug.jpg"
+      message="A special moment for you today"
+    />
   );
 }
-
-const styles = {
-  page: {
-    padding: "2rem",
-    textAlign: "center",
-  },
-};

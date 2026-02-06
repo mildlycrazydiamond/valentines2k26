@@ -12,5 +12,5 @@ export default function DayWrapper() {
   if (info.phase === "after")
     return <Locked message="Return for more love and kisses next year 💕" />;
 
-  return <Navigate to={`/day/${info.unlockedDay}`} />;
+  return <Navigate to={`/valentines2k26/day/${info.unlockedDay}`} />;
 }
