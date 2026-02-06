@@ -7,7 +7,7 @@ export default function Day7() {
     <DayCard
       title={VALENTINE_DAYS[7]}
       imageUrl={rose}
-      message="A special moment for you today"
+      message="As pretty as a rose, you define what love means to me. Intoxicating, timeless and brilliant."
     />
   );
 }

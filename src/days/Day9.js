@@ -7,7 +7,7 @@ export default function Day9() {
     <DayCard
       title={VALENTINE_DAYS[9]}
       imageUrl={chocolate}
-      message="A special moment for you today"
+      message="As sweet and fulfilling as chocolate, you are like my (healthy) childhood obsession. I can't have enough of you."
     />
   );
 }

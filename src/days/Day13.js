@@ -7,7 +7,7 @@ export default function Day13() {
     <DayCard
       title={VALENTINE_DAYS[13]}
       imageUrl={kiss}
-      message="A special moment for you today"
+      message="There is nothing better than kissing you, soaking you in and just dissolving like nothing between us exists."
     />
   );
 }

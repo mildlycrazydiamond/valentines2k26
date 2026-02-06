@@ -45,7 +45,7 @@ const styles = {
   },
   message: {
     fontSize: "1.1rem",
-    color: "#666",
+    color: "#8B0000",
     maxWidth: "500px",
   },
   footer: {

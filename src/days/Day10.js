@@ -7,7 +7,7 @@ export default function Day10() {
     <DayCard
       title={VALENTINE_DAYS[10]}
       imageUrl={teddy}
-      message="A special moment for you today"
+      message="You are my source of comfort, bliss, peace and joy. You are my cutie patootie teddy bear."
     />
   );
 }
